@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jimmy Tan",
+  title: "Hi all, I'm Jimmy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Machine Learning engineer 🤖 having an experience of building production ready chatbots using Rasa Framework and Amazon Web Services (AWS), as well as experimental Gen-AI Multi-Agent Conversation System using Microsoft AutoGen and LLMs. Currently learning Data Science 🚀."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HnmN8S8CuDqh2bECr1Z6gTItnHlKFu_b/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/JimmyTan2000",
+  linkedin: "https://www.linkedin.com/in/jimmy-tan-503431233/",
+  gmail: "tanjimmy2000@gmail.com",
+  // gitlab: "https://mygit.th-deg.de/jt27296",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Deggendorf Institute of Technology",
+      logo: require("./assets/images/thd.jpg"),
+      subHeader: "B.Sc in Artificial Intelligence (German Stream)",
+      duration: "Oct 2020 - May 2024",
+      desc: "Grade in German: 1.9"
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Sunway College",
+      logo: require("./assets/images/sunway-college.png"),
+      subHeader: "Cambridge GCE A-Level",
+      duration: "Jan 2018 - Jun 2019",
+      desc: "Took Physics, Chemistry, Maths and Further Maths"
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +174,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "ML Engineer - Thesis Research",
+      company: "Mercedes-Benz Consulting GmbH",
+      companylogo: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      date: "Oct 2023 – July 2024",
+      desc: "Worked in the Machine Learning team for my thesis research and some other projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engaged in the research for my thesis titled \"Automatic Evaluation of Question-Generation Models.\"",
+        "Engaged in the development of the Gen-AI Multi-Agent Spin-Off project leveraging LLMs.",
+        "Performed data quality check of the manually annotated data from Amazon MTurk."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Working Student - Data Analytics and AI",
+      company: "Mercedes-Benz Consulting GmbH",
+      companylogo: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      date: "Mar 2023 – Aug 2023",
+      desc: "Continuation of my internship",
+      descBullets: [
+        "Led the architectural design of a new Rasa chatbot for a specific use case.",
+        "Coordinated product requirements clarification and procedural synchronization among cross-functional teams during implementation.",
+        "Developed comprehensive step-by-step instructions and demonstrated the implementation of the Rasa system with Kubernetes on AWS EKS (knowledge transfer)."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intern - Data Analytics and AI",
+      company: "Mercedes-Benz Consulting GmbH",
+      companylogo: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      date: "Sep 2022 – Feb 2023",
+      desc: "Internship",
+      descBullets: [
+        "Led strategy planning for the implementation of a dialogue-oriented AI chatbot utilizing Rasa technology.",
+        "Designed and implemented a robust cloud infrastructure using Docker, Kubernetes, Helm Charts, and multiple AWS services such as Lambda, EC2, EKS, ECR, CodeCommit, Cloud9, DynamoDB, Cognito, and SES.",
+        "Independently deployed the chatbot in a production environment with load balancing for optimal performance and scalability.",
+        "Collaborated closely with the frontend team to seamlessly integrate the chatbot into the user interface.",
+        "Documented the entire chatbot comprehensively."
+      ]
     }
   ]
 };
@@ -211,31 +224,52 @@ const openSource = {
 
 // Some big projects you have worked on
 
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     {
+//       image: require("./assets/images/saayaHealthLogo.webp"),
+//       projectName: "Saayahealth",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://saayahealth.com/"
+//         }
+//         //  you can add extra buttons here.
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/nextuLogo.webp"),
+//       projectName: "Nextu",
+//       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       footerLink: [
+//         {
+//           name: "Visit Website",
+//           url: "http://nextu.se/"
+//         }
+//       ]
+//     }
+//   ],
+//   display: false // Set false to hide this section, defaults to true
+// };
+
+// Duplicate of the bigProjects Section. Used to display my Bachelor's Thesis
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Thesis - Pending for Publication",
+  subtitle: "My bachelor thesis in the field of NLP (Natural Language Processing)",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/thesis.webp"),
+      projectName: "Automatic Evaluation of Question-Generation Models",
+      projectDesc: "Evaluating generative AI models like Question-Generation is challenging; read on to learn how to address this.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Paper",
+          url: "https://drive.google.com/file/d/1PLkrbC86pXhU2yYEtx6xMsKSilMo60VL/view?usp=sharing"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -252,50 +286,45 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "CERN GridWars Hackathon - 1st Runner Up",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Hackathon held by CERN during the CERN Spring Campus 2024",
+      image: require("./assets/images/CERN_logo.png"),
+      imageAlt: "CERN Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
+          name: "Hackathon Award",
+          url: "https://drive.google.com/file/d/1uSvT3-qaLFqX_4LBoK1sLmy53hYMN3tG/view?usp=drive_link"
+        }, 
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certificate of Participation",
+          url: "https://drive.google.com/file/d/1ejZOVQl-8TU_AApGoCAOnVaDKfc8bBmX/view?usp=drive_link"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Working Student Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Recommendation letter",
+      image: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      imageAlt: "Mercedes-Benz Consulting Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Recommendation Letter",
+          url: "https://drive.google.com/file/d/1jvbJ9Alb_meZaAXeNR4lZNBtRygO0_9F/view?usp=drive_link"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Internship Certificate",
+      subtitle: "Recommendation letter",
+      image: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      imageAlt: "Mercedes-Benz Consulting Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Recommendation Letter",
+          url: "https://drive.google.com/file/d/1kE4ZAalXnou-t9Oro-VPCJKrvqXuR6sC/view?usp=drive_link"
         }
       ]
     }
@@ -305,23 +334,40 @@ const achievementSection = {
 
 // Blogs Section
 
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+
+// Duplicate of the Blogs Section. Repurposed to put my bachelor thesis paper
 const blogSection = {
-  title: "Blogs",
+  title: "Project Reports / Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Here you can find some of my project reports and blogs.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://jimmytan2000.github.io/thd-robot-programming-report-webserver/",
+      title: "Robot Programming Report",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Report for robot programming project for maze solving using ROS2 and Python."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +389,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +402,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +418,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+491774061215",
+  email_address: "tanjimmy2000@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
