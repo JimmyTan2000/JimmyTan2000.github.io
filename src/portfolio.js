@@ -23,7 +23,7 @@ const greeting = {
   username: "Jimmy Tan",
   title: "Hi all, I'm Jimmy",
   subTitle: emoji(
-    "A passionate Machine Learning engineer 🤖 having an experience of building production ready chatbots using Rasa Framework and Amazon Web Services (AWS), as well as experimental Gen-AI Multi-Agent Conversation System using Microsoft AutoGen and LLMs. Currently learning Data Science 🚀."
+    "I am a passionate Machine Learning Engineer 🤖 with experience in building production-ready chatbots using the Rasa Framework and Amazon Web Services (AWS). Additionally, I have developed the Gen-AI Multi-Agent Spin-Off project leveraging Microsoft AutoGen and LLMs. Currently learning Data Science 🚀."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1HnmN8S8CuDqh2bECr1Z6gTItnHlKFu_b/view?usp=sharing", // Set to empty to hide the button
@@ -48,76 +48,88 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Tech Stacks",
+  subTitle: "Here are the tech stacks I currently possess and am actively improving.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Python"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Java"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ JavaScript"
+    ),
+    emoji("⚡ PyTorch"),
+    emoji("⚡ TensorFlow"),
+    emoji("⚡ Scikit-learn"),
+    emoji("⚡ Pandas"),
+    emoji("⚡ Matplotlib"),
+    emoji("⚡ Seaborn"), 
+    emoji("⚡ Linux"),
+    emoji("⚡ SQL"),
+    emoji("⚡ NoSQL"),
+    emoji("⚡ AWS"),
+    emoji("⚡ Power BI"),
+    emoji("⚡ Git")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -180,9 +192,10 @@ const workExperiences = {
       date: "Oct 2023 – July 2024",
       desc: "Worked in the Machine Learning team for my thesis research and some other projects.",
       descBullets: [
-        "Engaged in the research for my thesis titled \"Automatic Evaluation of Question-Generation Models.\"",
+        "Conducted the research for my thesis titled \"Automatic Evaluation of Question-Generation Models.\"",
+        "Performed data quality check of the manually annotated data from Amazon MTurk.",
         "Engaged in the development of the Gen-AI Multi-Agent Spin-Off project leveraging LLMs.",
-        "Performed data quality check of the manually annotated data from Amazon MTurk."
+        "Presented the Gen-AI project showcase company-wide at Mercedes-Benz."
       ]
     },
     {
@@ -257,7 +270,7 @@ const openSource = {
 
 // Duplicate of the bigProjects Section. Used to display my Bachelor's Thesis
 const bigProjects = {
-  title: "Thesis - Pending for Publication",
+  title: "Thesis",
   subtitle: "My bachelor thesis in the field of NLP (Natural Language Processing)",
   projects: [
     {
@@ -267,7 +280,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Paper",
-          url: "https://drive.google.com/file/d/1PLkrbC86pXhU2yYEtx6xMsKSilMo60VL/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1Joj25afWGE17E2mznhqC9eL32ihZCRzq/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -285,6 +298,19 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "ML Engineer - Thesis Research Certificate",
+      subtitle:
+        "Recommendation letter",
+      image: require("./assets/images/mercedes_benz_consulting_gmbh_logo.jpeg"),
+      imageAlt: "Mercedes-Benz Consulting Logo",
+      footerLink: [
+        {
+          name: "View Recommendation Letter",
+          url: "https://drive.google.com/file/d/1Gcl4gXyAPEGEVFBQqFZ1YeK7l_iKsghq/view?usp=drive_link"
+        }
+      ]
+    },
     {
       title: "CERN GridWars Hackathon - 1st Runner Up",
       subtitle:
@@ -411,7 +437,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
