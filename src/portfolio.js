@@ -49,33 +49,62 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Tech Stacks",
-  subTitle: "Here are the tech stacks I currently possess and am actively improving.",
+  subTitle: "Here are the tech stacks I currently possess and am actively improving. (Those without icons are included in the list below).",
   skills: [
-    emoji(
-      "⚡ Python"
-    ),
-    emoji("⚡ Java"),
-    emoji(
-      "⚡ JavaScript"
-    ),
     emoji("⚡ PyTorch"),
     emoji("⚡ TensorFlow"),
     emoji("⚡ Scikit-learn"),
     emoji("⚡ Pandas"),
     emoji("⚡ Matplotlib"),
     emoji("⚡ Seaborn"), 
-    emoji("⚡ Linux"),
-    emoji("⚡ SQL"),
-    emoji("⚡ NoSQL"),
-    emoji("⚡ AWS"),
     emoji("⚡ Power BI"),
-    emoji("⚡ Git")
+    emoji("⚡ Kubernetes")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    }, 
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    }, 
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    }, 
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    }
+    ,
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    }, 
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
+    ,
+    {
+      skillName: "SQL/NoSQL",
+      fontAwesomeClassname: "fas fa-database"
+    }
+    ,
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    }
+    ,
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    }
     // {
     //   skillName: "html-5",
     //   fontAwesomeClassname: "fab fa-html5"
