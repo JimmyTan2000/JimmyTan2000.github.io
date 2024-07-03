@@ -362,9 +362,9 @@ const achievementSection = {
 
 // Duplicate of the Blogs Section. Repurposed to put my bachelor thesis paper
 const blogSection = {
-  title: "Project Reports / Blogs",
+  title: "Live Projects, Reports & Blogs",
   subtitle:
-    "Here you can find some of my project reports and blogs.",
+    "Here you can find some of my live projects, project reports and blogs.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -372,6 +372,12 @@ const blogSection = {
       title: "Robot Programming Report",
       description:
         "Report for robot programming project for maze solving using ROS2 and Python."
+    },
+    {
+      url: "https://tanjimmy.itch.io/the-quest-for-a-cleaner-world",
+      title: "EcoQuest Game - Platformer",
+      description:
+        "Try out this platformer game that I have created!"
     }
   ],
   display: true // Set false to hide this section, defaults to true
