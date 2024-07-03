@@ -48,8 +48,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "My Tech Stacks",
-  subTitle: "Here are the tech stacks I currently possess and am actively improving. (Those without icons are included in the list below).",
+  title: "My Skill Sets",
+  subTitle: "Here are the skill sets I currently possess and am actively improving. (Those without icons are included in the list below).",
   skills: [
     emoji("⚡ PyTorch"),
     emoji("⚡ TensorFlow"),
