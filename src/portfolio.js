@@ -116,11 +116,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "LMU Munich",
+      logo: require("./assets/images/LMU.png"),
+      subHeader: "M.Sc in Computer Science",
+      duration: "Oct 2024 - Present",
+      desc: "Current Grade: 1.4/1.0 (German System)"
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       schoolName: "Deggendorf Institute of Technology",
       logo: require("./assets/images/thd.jpg"),
       subHeader: "B.Sc in Artificial Intelligence (German Stream)",
       duration: "Oct 2020 - May 2024",
-      desc: "Grade: 1.9 (German System)"
+      desc: "Grade: 1.9/1.0 (German System)"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -264,7 +275,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
